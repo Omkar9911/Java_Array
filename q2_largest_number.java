@@ -16,7 +16,7 @@ public class q2_largest_number
 {
   public static int getLargest(int number[])
   {
-    int largest = Integer.MIN_VALUE;
+    int largest = Integer.MIN_VALUE;  // +infinity
     for(int i=0; i<number.length; i++)
     {
       if(largest < number[i])
@@ -43,7 +43,7 @@ public class q2_largest_number
     }
 
     System.out.println("You Entered no in an array is :");
-
+    // print array
     for(int i=0; i<n; i++)
     {
       System.out.print( number[i]+ " " );
