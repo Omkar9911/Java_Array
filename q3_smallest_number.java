@@ -14,7 +14,7 @@ public class q3_smallest_number
 {
   public static int getmini(int number[])
   {
-    int getmini=Integer.MAX_VALUE;
+    int getmini=Integer.MAX_VALUE; // +infinity
     for(int i=0; i<number.length; i++)
     {
       if(getmini > number[i])
@@ -38,6 +38,7 @@ public class q3_smallest_number
       number[i]=sc.nextInt();
     }
     System.out.println("You entered number are : ");
+    // print array
     for(int i=0; i<n; i++)
     {
       System.out.print(number[i] + " ");
