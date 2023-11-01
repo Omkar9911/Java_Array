@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class largest_number 
+public class q2_largest_number 
 {
   public static int getLargest(int number[])
   {
