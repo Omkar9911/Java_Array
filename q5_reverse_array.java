@@ -8,6 +8,7 @@ public class q5_reverse_array
 
     while (first < last)
      {
+      // swap
       int temp = number[last];
       number[last] = number[ first];
       number[first] = temp;
@@ -43,6 +44,7 @@ public class q5_reverse_array
     System.out.println("Reverse array is : ");
 
     reverse(number);
+    // print arrray
     for(int i=0; i<number.length ; i++)
     {
     System.out.print(  number[i] + " ");
