@@ -40,8 +40,8 @@ public class q7_subarrays
       int start=i;
       for(int j=i; j<=number.length; j++){
         int end=j;
-        for(int k=start; k<end; k++){     //print
-          System.out.print(number[k] + " ");//subarray
+        for(int k=start; k<end; k++){     
+          System.out.print(number[k] + " ");
         }
         System.out.println();
       }
